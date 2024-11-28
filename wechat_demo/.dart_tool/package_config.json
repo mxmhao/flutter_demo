@@ -1,0 +1,617 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "_fe_analyzer_shared",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/_fe_analyzer_shared-72.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "_macros",
+      "rootUri": "file:///Users/macmini/Documents/FlutterProject/flutter_sdk/bin/cache/dart-sdk/pkg/_macros",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "analyzer",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/analyzer-6.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "analyzer_plugin",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/analyzer_plugin-0.11.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "args",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/args-2.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "async",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/async-2.11.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "auto_route",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/auto_route-9.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "auto_route_generator",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/auto_route_generator-9.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "boolean_selector",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/boolean_selector-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "build",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/build-2.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "build_config",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/build_config-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "build_daemon",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/build_daemon-4.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "build_resolvers",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/build_resolvers-2.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "build_runner",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/build_runner-2.4.13",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "build_runner_core",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/build_runner_core-7.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "built_collection",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/built_collection-5.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "built_value",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/built_value-8.9.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "characters",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/characters-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "checked_yaml",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/checked_yaml-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "ci",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/ci-0.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "cli_util",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/cli_util-0.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "clock",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/clock-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "code_builder",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/code_builder-4.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "collection",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/collection-1.18.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "convert",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/convert-3.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "crypto",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/crypto-3.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "cupertino_icons",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/cupertino_icons-1.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "custom_lint",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/custom_lint-0.6.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "custom_lint_builder",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/custom_lint_builder-0.6.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "custom_lint_core",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/custom_lint_core-0.6.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "dart_style",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/dart_style-2.3.7",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "dio",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/dio-5.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "dio_web_adapter",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/dio_web_adapter-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "fake_async",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/fake_async-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "file",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/file-7.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "fixnum",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/fixnum-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/macmini/Documents/FlutterProject/flutter_sdk/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "flutter_lints",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/flutter_lints-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "flutter_riverpod",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/flutter_riverpod-2.5.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "flutter_test",
+      "rootUri": "file:///Users/macmini/Documents/FlutterProject/flutter_sdk/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "freezed",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/freezed-2.5.7",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "freezed_annotation",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/freezed_annotation-2.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "frontend_server_client",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/frontend_server_client-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "glob",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/glob-2.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "graphs",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/graphs-2.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "hotreloader",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/hotreloader-4.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/http-1.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "http_multi_server",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/http_multi_server-3.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/http_parser-4.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "io",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/io-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/js-0.7.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "json_annotation",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/json_annotation-4.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "json_serializable",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/json_serializable-6.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "leak_tracker",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/leak_tracker-10.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_flutter_testing",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/leak_tracker_flutter_testing-3.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_testing",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/leak_tracker_testing-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "lints",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/lints-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
+      "name": "logging",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/logging-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "macros",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/macros-0.1.2-main.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "matcher",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/matcher-0.12.16+1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "material_color_utilities",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/material_color_utilities-0.11.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/meta-1.15.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "mime",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/mime-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "package_config",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/package_config-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/path-1.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/petitparser-6.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "pool",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/pool-1.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "pub_semver",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/pub_semver-2.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "pubspec_parse",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/pubspec_parse-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "riverpod",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/riverpod-2.5.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "riverpod_analyzer_utils",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/riverpod_analyzer_utils-0.5.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "riverpod_annotation",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/riverpod_annotation-2.5.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "riverpod_generator",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/riverpod_generator-2.4.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "riverpod_lint",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/riverpod_lint-2.3.13",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "rxdart",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/rxdart-0.28.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shelf",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/shelf-1.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "shelf_web_socket",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/shelf_web_socket-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "sky_engine",
+      "rootUri": "file:///Users/macmini/Documents/FlutterProject/flutter_sdk/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "source_gen",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/source_gen-1.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "source_helper",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/source_helper-1.3.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "source_span",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/source_span-1.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "sprintf",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/sprintf-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "stack_trace",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/stack_trace-1.11.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "state_notifier",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/state_notifier-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "stream_channel",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/stream_channel-2.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "stream_transform",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/stream_transform-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "string_scanner",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/string_scanner-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "term_glyph",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/term_glyph-1.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "test_api",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/test_api-0.7.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "timing",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/timing-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/typed_data-1.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "uuid",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/uuid-4.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "vector_math",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/vector_math-2.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "vm_service",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/vm_service-14.2.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "watcher",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/watcher-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "web",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/web-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "web_socket",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/web_socket-0.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "web_socket_channel",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/web_socket_channel-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "xml",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/xml-6.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "yaml",
+      "rootUri": "file:///Users/macmini/.pub-cache/hosted/pub.flutter-io.cn/yaml-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "wechat_demo",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    }
+  ],
+  "generated": "2024-11-22T07:34:48.297308Z",
+  "generator": "pub",
+  "generatorVersion": "3.5.4",
+  "flutterRoot": "file:///Users/macmini/Documents/FlutterProject/flutter_sdk",
+  "flutterVersion": "3.24.5",
+  "pubCache": "file:///Users/macmini/.pub-cache"
+}
