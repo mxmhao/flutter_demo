@@ -46,11 +46,11 @@ class MyApp extends StatelessWidget {
         splashColor: Colors.transparent,
         primarySwatch: Colors.green
       ),
-      // home: RootPage(),
+      home: RootPage(),
       // home: ScaleAnimationRoute(),
       // home: ScaleAnimationRoute2(),
       // home: ScaleAnimationRoute3(),
-      home: Test4ScaleTransition(),
+      // home: Test4ScaleTransition(),
       // home: MaterialApp.router(),
     );
   }
