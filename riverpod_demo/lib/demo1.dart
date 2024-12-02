@@ -25,7 +25,7 @@ flutter pub run build_runner watch -d
 
 @riverpod // 自动生成代码，会生成一个 fetchTitleProvider 变量 在 demo1.g.dart 文件中
 Future<String> fetchTitle(Ref ref) async {
-  // 这里延迟 必须加上 await，前面老是没有显示加载圈就是这个原因，这是异步阻塞，不用sleep()，sleep是同步阻塞，不会显示加载圈
+  // 这里延迟 必须加上 await，之前老是没有显示加载圈就是这个原因，这是异步阻塞，不能用sleep()，sleep是同步阻塞，不会显示加载圈
   await Future.delayed(const Duration(seconds: 5));
   return "Demo1";
 }
@@ -36,7 +36,7 @@ String fetchTitle1(Ref ref) {
 }
 
 // 如果不自动生成就要这么手写 Provider，Provider 用于访问不会改变的依赖项和对象。
-final fetchTitleProvider2 = Provider<String>((ref) {
+final fetchTitleProvider2 = Provider.autoDispose<String>((ref) {
   return 'Hello world';
 });
 
