@@ -19,7 +19,9 @@ class Demo1App extends StatelessWidget {
         useMaterial3: true,
       ),
       routerConfig: appRouter.config(),
-      // routerDelegate: appRouter.delegate(), routerDelegate 是系统传过来的路由，例如：启动app是哦
+      // routerDelegate 是系统传过来的路由，例如：启动app路由到首页，Android的back按钮路由回退，
+      // 还与iOS的 Universal Links，Android的 DeepLink 有关，用来解析他们跳转到正确的路由
+      // routerDelegate: appRouter.delegate(),
     );
   }
 }
