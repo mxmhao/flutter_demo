@@ -24,6 +24,8 @@ class Demo1App extends StatelessWidget {
   }
 }
 
+// 项目中有几个 AutoRouterConfig 就会生成几个 ".gr.dart" 文件，所以一般整个项目有一个就行了。
+// 还要 import 所有带 @RoutePage() 的文件，生成的 ".gr.dart" 文件 才不会报错
 @AutoRouterConfig(replaceInRouteName: 'Screen|Page,Route')
 class Demo1Router extends RootStackRouter {
 
