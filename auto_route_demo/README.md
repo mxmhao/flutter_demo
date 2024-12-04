@@ -2,6 +2,7 @@
 
 A auto_route demo project.
 重要说明在 demo1 中
+本项目只介绍了一些常用的功能，更多功能请查看官方文档
 
 ## Getting Started
 

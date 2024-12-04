@@ -10,7 +10,7 @@
 part of 'demo3.dart';
 
 /// generated route for
-/// [DashboardPage]
+/// [Demo4DashboardPage]
 class DashboardRoute extends PageRouteInfo<void> {
   const DashboardRoute({List<PageRouteInfo>? children})
       : super(
@@ -26,22 +26,6 @@ class DashboardRoute extends PageRouteInfo<void> {
       return DashboardPage();
     },
   );
-}
-
-class Demo2Route2Args {
-  const Demo2Route2Args({
-    this.key,
-    this.book,
-  });
-
-  final Key? key;
-
-  final String? book;
-
-  @override
-  String toString() {
-    return 'Demo2Route2Args{key: $key, book: $book}';
-  }
 }
 
 /// generated route for

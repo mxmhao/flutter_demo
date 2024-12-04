@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:auto_route/auto_route.dart';
 
+// 本项目只介绍了一些常用的功能，更多功能请查看官方文档
 // 自动生成的文件，必须这么写，加上这句再去执行生成文件命令会更好
 part 'demo1.gr.dart';
 
@@ -49,7 +50,7 @@ class Demo1Router extends RootStackRouter {
 
   @override
   List<AutoRouteGuard> get guards => [
-    // optionally add root guards here
+    // 路由守护，是一种路由拦截器。分为全局守护和专属守护，这个列表是全局守护
   ];
 }
 /* HomeScreen 原本是要生成 class HomeScreen extends PageRouteInfo

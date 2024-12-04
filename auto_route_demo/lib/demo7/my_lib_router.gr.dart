@@ -7,23 +7,23 @@
 // ignore_for_file: type=lint
 // coverage:ignore-file
 
-part of 'demo4.dart';
+part of 'my_lib_router.dart';
 
 /// generated route for
-/// [Demo4DashboardPage]
-class Demo4DashboardRoute extends PageRouteInfo<void> {
-  const Demo4DashboardRoute({List<PageRouteInfo>? children})
+/// [MyLibDashboardPage]
+class MyLibDashboardRoute extends PageRouteInfo<void> {
+  const MyLibDashboardRoute({List<PageRouteInfo>? children})
       : super(
-          Demo4DashboardRoute.name,
+          MyLibDashboardRoute.name,
           initialChildren: children,
         );
 
-  static const String name = 'Demo4DashboardRoute';
+  static const String name = 'DashboardRoute';
 
   static PageInfo page = PageInfo(
     name,
     builder: (data) {
-      return Demo4DashboardPage();
+      return MyLibDashboardPage();
     },
   );
 }
