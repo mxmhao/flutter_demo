@@ -1,11 +1,9 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 // flutter_riverpod 代码自动生成的标准写法，在本文件名和后缀之间加上'.g'
-part 'demo1.g.dart'; // 必须引入，否则报错, flutter_riverpod 会自动生成此文件
+part 'demo1.g.dart'; // 必须引入，否则报错, flutter_riverpod 的生成器会生成此文件
 
 /*
 代码自动生成官方文档 https://dart.cn/tools/build_runner/
@@ -23,6 +21,9 @@ flutter pub run build_runner clean
 flutter pub run build_runner watch -d
 */
 
+// 此dome是在 “函数” 上 添加@riverpod 和 手写 Provider.autoDispose
+// https://riverpod.dev/docs/essentials/first_request
+
 @riverpod // 自动生成代码，会生成一个 fetchTitleProvider 变量 在 demo1.g.dart 文件中
 Future<String> fetchTitle(Ref ref) async {
   // 这里延迟 必须加上 await，之前老是没有显示加载圈就是这个原因，这是异步阻塞，不能用sleep()，sleep是同步阻塞，不会显示加载圈
@@ -35,14 +36,59 @@ String fetchTitle1(Ref ref) {
   return "Demo1";
 }
 
-// 如果不自动生成就要这么手写 Provider，Provider 用于访问不会改变的依赖项和对象。
+// 如果不自动生成就要这么手写 Provider，Provider 用于访问不会改变的依赖项和对象。不建议用手写
 final fetchTitleProvider2 = Provider.autoDispose<String>((ref) {
   return 'Hello world';
 });
 
-class Demo1 extends ConsumerWidget { // 使用 riverpod 提供的 ConsumerWidget 代替 StatelessWidget 简化代码
-  // 使用 riverpod 提供的 ConsumerStatefulWidget 代替 StatefulWidget 简化代码
+class Demo1 extends StatelessWidget {
   const Demo1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Demo1Home1();
+    // return Demo1Home2();
+  }
+}
+
+class Demo1Home1 extends StatelessWidget {
+  const Demo1Home1({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    // 方式一： 使用 Consumer
+    return Consumer(
+      builder: (BuildContext context, WidgetRef ref, Widget? child,) {
+        // 2 通过 ref.watch 获取数据
+        // 这两个是返回值有点不一样
+        // fetchTitle 定义的是 Future<String> 做返回值
+        final AsyncValue title = ref.watch(fetchTitleProvider);// 里面会调用上面的 fetchTitle 函数，并缓存数据
+        // 这两个定义的是 String 做返回值
+        final String title1 = ref.watch(fetchTitle1Provider);
+        final String title2 = ref.watch(fetchTitleProvider2);
+
+        return Scaffold(
+          appBar: AppBar(
+            title: const Text("Demo1"),
+            backgroundColor: Colors.green,
+          ),
+          body: Center(
+            child: switch (title) { // title 通过状态变化来 返回视图
+              AsyncData(:final value) => Text('Activity: ${value}'),
+              AsyncError() => const Text('Oops, something unexpected happened'),
+              _ => const CircularProgressIndicator(),
+            },
+          ),
+        );
+      },
+    );
+  }
+}
+
+// 方式二： 使用 ConsumerWidget
+class Demo1Home2 extends ConsumerWidget { // 使用 riverpod 提供的 ConsumerWidget 代替 StatelessWidget 简化代码
+  // 使用 riverpod 提供的 ConsumerStatefulWidget 代替 StatefulWidget 简化代码
+  const Demo1Home2({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -57,9 +103,10 @@ class Demo1 extends ConsumerWidget { // 使用 riverpod 提供的 ConsumerWidget
     return Scaffold(
       appBar: AppBar(
         title: const Text("Demo1"),
+        backgroundColor: Colors.green,
       ),
       body: Center(
-        child: switch (title) { // title 通过状态变化来 返回视图
+        child: switch (title) { // 根据当前 watch 到的 title 返回组件
           AsyncData(:final value) => Text('Activity: ${value}'),
           AsyncError() => const Text('Oops, something unexpected happened'),
           _ => const CircularProgressIndicator(),
