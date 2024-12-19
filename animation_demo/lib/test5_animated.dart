@@ -31,7 +31,6 @@ class _Test5PageState extends State<Test5Page>
         title: Text(widget.title),
       ),
       body: Center(
-        // AnimatedIcons.home_menu 表示 从 home 到 menu 的动画。flutter提供了几个动画
         child: RotationTransition(
           turns: controller,
           child: Container(

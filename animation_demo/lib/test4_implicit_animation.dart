@@ -28,7 +28,7 @@ class _Test4PageState extends State<Test4Page>
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: _createAnimated6(), // 替换下面的_createAnimated方法，查看跟多演示
+      body: _createAnimated6(), // 替换下面的_createAnimated方法，查看更多演示
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {

@@ -31,7 +31,6 @@ class _Test3PageState extends State<Test3Page>
         title: Text(widget.title),
       ),
       body: Center(
-        // AnimatedIcons.home_menu 表示 从 home 到 menu 的动画
         child: Container()
       ),
       floatingActionButton: FloatingActionButton(
