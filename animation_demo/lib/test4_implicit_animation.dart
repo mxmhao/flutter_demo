@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 // 隐式动画：就是封装好的动画组件，隐藏了动画控制细节。flutter 提供了很多隐式动画组件
+// 隐式动画都继承自 ImplicitlyAnimatedWidget，我们自己封装也可以继承此类，可以少写很多代码
+// 《Flutter实战·第二版》把内置的隐式动画组件称为：预置的动画过渡组件
 class Test4Page extends StatefulWidget {
   Test4Page({super.key});
 

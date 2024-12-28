@@ -37,7 +37,7 @@ Route _createRoute1() {
     pageBuilder: (context, animation, secondaryAnimation) => const _TestPage1(),
     transitionsBuilder: (context, animation, secondaryAnimation, child) {
       final tween = Tween(begin: const Offset(0.0, 1.0), end: Offset.zero);
-      final offsetAnimation = animation.drive(tween);
+      final offsetAnimation = animation.drive(tween);// == tween.animate(animation);
       return SlideTransition(
         position: offsetAnimation,
         child: child,); // 这里的child 就是 pageBuilder 中创建的page
